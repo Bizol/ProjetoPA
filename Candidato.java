@@ -9,6 +9,7 @@ public class Candidato {
 	private String nome;
 	private String partido;
 	private String ficha;
+	private int votos;
 	
 	public int getIdCandidato() {
 		return idCandidato;
@@ -34,4 +35,11 @@ public class Candidato {
 	public void setFicha(String ficha) {
 		this.ficha = ficha;
 	}
+	public int getVotos() {
+		return votos;
+	}
+	public void setVotos(int votos) {
+		this.votos = votos;
+	}
+	
 }

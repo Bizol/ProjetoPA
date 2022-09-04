@@ -6,14 +6,14 @@ package PA;
 public class TipoPesquisa {
 	
 	private int idtipo;
-	private String tipo;
-	private String formato;
+	private Pesquisa tipo;
+	private Pesquisa formato;
 	private String descricao;
 	
-	public String getTipo() {
+	public Pesquisa getTipo() {
 		return tipo;
 	}
-	public void setTipo(String tipo) {
+	public void setTipo(Pesquisa tipo) {
 		this.tipo = tipo;
 	}
 	public int getIdtipo() {
@@ -22,10 +22,10 @@ public class TipoPesquisa {
 	public void setIdtipo(int idtipo) {
 		this.idtipo = idtipo;
 	}
-	public String getFormato() {
+	public Pesquisa getFormato() {
 		return formato;
 	}
-	public void setFormato(String formato) {
+	public void setFormato(Pesquisa formato) {
 		this.formato = formato;
 	}	
 	public String getDescricao() {
@@ -34,6 +34,4 @@ public class TipoPesquisa {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-	
 }

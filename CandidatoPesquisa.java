@@ -5,15 +5,15 @@ package PA;
 
 public class CandidatoPesquisa {
 	
-	private int idcandidato;
+	private Candidato idcandidato;
 	private Candidato candidato;
-	private Pesquisa pesquisa;
-	private int votos;
+	private Pesquisa id;
+	private Candidato votos;
 	
-	public int getIdcandidato() {
+	public Candidato getIdcandidato() {
 		return idcandidato;
 	}
-	public void setIdcandidato(int idcandidato) {
+	public void setIdcandidato(Candidato idcandidato) {
 		this.idcandidato = idcandidato;
 	}
 	public Candidato getCandidato() {
@@ -22,16 +22,16 @@ public class CandidatoPesquisa {
 	public void setCandidato(Candidato candidato) {
 		this.candidato = candidato;
 	}
-	public Pesquisa getPesquisa() {
-		return pesquisa;
+	public Pesquisa getId() {
+		return id;
 	}
-	public void setPesquisa(Pesquisa pesquisa) {
-		this.pesquisa = pesquisa;
+	public void setId(Pesquisa id) {
+		this.id = id;
 	}
-	public int getVotos() {
+	public Candidato getVotos() {
 		return votos;
 	}
-	public void setVotos(int votos) {
+	public void setVotos(Candidato votos) {
 		this.votos = votos;
 	}
 }

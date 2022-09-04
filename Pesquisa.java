@@ -10,8 +10,8 @@ public class Pesquisa {
 	private String data;
 	private String local;
 	private int mediaIdade;
-	private TipoPesquisa tipo;
-	private TipoPesquisa formato;
+	private String tipo;
+	private String formato;
 	
 	public int getId() {
 		return id;
@@ -43,16 +43,16 @@ public class Pesquisa {
 	public void setMediaIdade(int mediaIdade) {
 		this.mediaIdade = mediaIdade;
 	}
-	public TipoPesquisa getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
-	public void setTipo(TipoPesquisa tipo) {
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	public TipoPesquisa getFormato() {
+	public String getFormato() {
 		return formato;
 	}
-	public void setFormato(TipoPesquisa formato) {
+	public void setFormato(String formato) {
 		this.formato = formato;
 	}
 }
