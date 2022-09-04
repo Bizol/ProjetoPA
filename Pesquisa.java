@@ -1,7 +1,7 @@
 
 
 
-package pacotePA;
+package PA;
 
 public class Pesquisa {
 	
@@ -10,8 +10,8 @@ public class Pesquisa {
 	private String data;
 	private String local;
 	private int mediaIdade;
-	private String tipo;
-	private String formato;
+	private TipoPesquisa tipo;
+	private TipoPesquisa formato;
 	
 	public int getId() {
 		return id;
@@ -43,17 +43,16 @@ public class Pesquisa {
 	public void setMediaIdade(int mediaIdade) {
 		this.mediaIdade = mediaIdade;
 	}
-	public String getTipo() {
+	public TipoPesquisa getTipo() {
 		return tipo;
 	}
-	public void setTipo(String tipo) {
+	public void setTipo(TipoPesquisa tipo) {
 		this.tipo = tipo;
 	}
-	public String getFormato() {
+	public TipoPesquisa getFormato() {
 		return formato;
 	}
-	public void setFormato(String formato) {
+	public void setFormato(TipoPesquisa formato) {
 		this.formato = formato;
 	}
-
 }

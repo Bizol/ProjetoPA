@@ -1,7 +1,7 @@
 
 
 
-package pacotePA;
+package PA;
 
 public class Candidato {
 	
